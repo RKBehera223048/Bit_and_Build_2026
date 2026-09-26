@@ -1,0 +1,141 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+/* ============================================================
+   Karen's Ear — Global Styles
+   Dark command-centre theme with Spider-Man red/blue accents
+   ============================================================ */
+
+@theme {
+  --color-spidey-red: #E23636;
+  --color-spidey-blue: #2B3784;
+  --color-spidey-purple: #7B2D8E;
+  --color-cat1: #7B2D8E;
+  --color-cat2: #E23636;
+  --color-cat3: #F5A623;
+  --color-cat4: #27AE60;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: #08080d;
+  color: #e5e5e5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.08) transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Leaflet overrides for dark theme */
+.leaflet-container {
+  background: #08080d !important;
+  font-family: var(--font-sans) !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0d0d14 !important;
+  color: #e5e5e5 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: #0d0d14 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.leaflet-popup-close-button {
+  color: #666 !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #444 !important;
+  font-size: 9px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #555 !important;
+}
+
+/* Pulse animation for critical markers */
+@keyframes marker-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: marker-pulse 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Gradient text utility */
+.text-gradient-spidey {
+  background: linear-gradient(135deg, #E23636, #2B3784);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effects */
+.glow-red {
+  box-shadow: 0 0 20px rgba(226, 54, 54, 0.15), 0 0 40px rgba(226, 54, 54, 0.05);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(123, 45, 142, 0.15), 0 0 40px rgba(123, 45, 142, 0.05);
+}
+
+/* Line clamp */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

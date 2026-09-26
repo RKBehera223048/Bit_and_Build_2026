@@ -1,0 +1,24 @@
+{
+  "landmarks": [
+    { "name": "Times Square", "aliases": ["times sq", "42nd and broadway", "broadway and 42nd"], "lat": 40.7580, "lng": -73.9855 },
+    { "name": "Empire State Building", "aliases": ["empire state", "esb", "34th and 5th"], "lat": 40.7484, "lng": -73.9857 },
+    { "name": "Grand Central Terminal", "aliases": ["grand central", "grand central station", "42nd and park"], "lat": 40.7527, "lng": -73.9772 },
+    { "name": "Central Park", "aliases": ["central park", "the park", "cp"], "lat": 40.7829, "lng": -73.9654 },
+    { "name": "Brooklyn Bridge", "aliases": ["brooklyn bridge", "bk bridge"], "lat": 40.7061, "lng": -73.9969 },
+    { "name": "Statue of Liberty", "aliases": ["statue of liberty", "lady liberty", "liberty island"], "lat": 40.6892, "lng": -74.0445 },
+    { "name": "One World Trade Center", "aliases": ["one world trade", "freedom tower", "wtc", "world trade"], "lat": 40.7127, "lng": -74.0134 },
+    { "name": "Madison Square Garden", "aliases": ["msg", "madison square", "the garden"], "lat": 40.7505, "lng": -73.9934 },
+    { "name": "Rockefeller Center", "aliases": ["rockefeller", "rock center", "30 rock"], "lat": 40.7587, "lng": -73.9787 },
+    { "name": "Penn Station", "aliases": ["penn station", "penn", "34th and 7th"], "lat": 40.7506, "lng": -73.9935 },
+    { "name": "Columbia University", "aliases": ["columbia", "columbia u", "morningside heights"], "lat": 40.8075, "lng": -73.9626 },
+    { "name": "Yankee Stadium", "aliases": ["yankee stadium", "the stadium", "bronx stadium"], "lat": 40.8296, "lng": -73.9262 },
+    { "name": "Coney Island", "aliases": ["coney island", "coney"], "lat": 40.5749, "lng": -73.9859 },
+    { "name": "5th Ave & E 42nd St", "aliases": ["5th and 42nd", "42nd and 5th", "fifth and 42nd", "new york public library", "nypl"], "lat": 40.7532, "lng": -73.9822 },
+    { "name": "Wall Street", "aliases": ["wall street", "wall st", "financial district", "fidi"], "lat": 40.7074, "lng": -74.0113 },
+    { "name": "Harlem", "aliases": ["harlem", "125th street", "125th st"], "lat": 40.8116, "lng": -73.9465 },
+    { "name": "Union Square", "aliases": ["union square", "union sq", "14th and broadway"], "lat": 40.7359, "lng": -73.9911 },
+    { "name": "Washington Heights", "aliases": ["washington heights", "wash heights", "fort tryon"], "lat": 40.8417, "lng": -73.9393 },
+    { "name": "Chinatown", "aliases": ["chinatown", "canal street", "canal st"], "lat": 40.7158, "lng": -73.9970 },
+    { "name": "SoHo", "aliases": ["soho", "south of houston"], "lat": 40.7233, "lng": -74.0030 }
+  ]
+}

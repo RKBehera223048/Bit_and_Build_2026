@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rpt-001",
+    "source": "CALL",
+    "rawText": "Smoke pouring out of the building near 5th and 42nd! People are still inside, I can hear them screaming!",
+    "delaySeconds": 0
+  },
+  {
+    "id": "rpt-002",
+    "source": "SMS",
+    "rawText": "theres a fire at the new york public library building huge flames coming from 3rd floor pls send help",
+    "delaySeconds": 8
+  },
+  {
+    "id": "rpt-003",
+    "source": "SOCIAL",
+    "rawText": "BREAKING: Major fire at 5th Ave & 42nd St. Multiple people trapped. Fire trucks on scene. #NYC #Emergency",
+    "delaySeconds": 15
+  },
+  {
+    "id": "rpt-004",
+    "source": "CALL",
+    "rawText": "There's a man collapsed on the sidewalk near Grand Central, he's not breathing. I think he's having a heart attack.",
+    "delaySeconds": 22
+  },
+  {
+    "id": "rpt-005",
+    "source": "SMS",
+    "rawText": "suspicious package left under a bench in times square. black backpack, no one near it. people are nervous",
+    "delaySeconds": 30
+  },
+  {
+    "id": "rpt-006",
+    "source": "CALL",
+    "rawText": "The scaffolding on the building at Wall Street just collapsed! There are workers trapped under the debris, at least 3 people!",
+    "delaySeconds": 38
+  },
+  {
+    "id": "rpt-007",
+    "source": "SOCIAL",
+    "rawText": "Just saw scaffolding come down on Wall St. Dust everywhere. People screaming. This is bad. #wallstreet #collapse",
+    "delaySeconds": 45
+  },
+  {
+    "id": "rpt-008",
+    "source": "SMS",
+    "rawText": "gas leak smell really strong near union square. whole block stinks. people evacuating stores",
+    "delaySeconds": 55
+  },
+  {
+    "id": "rpt-009",
+    "source": "CALL",
+    "rawText": "There's a woman who fell off her bike in Central Park, she's bleeding from her head but she's conscious and talking.",
+    "delaySeconds": 65
+  },
+  {
+    "id": "rpt-010",
+    "source": "SOCIAL",
+    "rawText": "yo something weird going on near brooklyn bridge. some dude in a weird costume throwing stuff at cars. might be a super villain lol",
+    "delaySeconds": 72
+  },
+  {
+    "id": "rpt-011",
+    "source": "CALL",
+    "rawText": "The fire at 42nd Street is spreading! The whole block is filling with smoke. We need more units here NOW. At least 5 people still unaccounted for.",
+    "delaySeconds": 80
+  },
+  {
+    "id": "rpt-012",
+    "source": "SMS",
+    "rawText": "car accident at rockefeller center. two cars. one person looks hurt pretty bad. other driver ran away",
+    "delaySeconds": 90
+  },
+  {
+    "id": "rpt-013",
+    "source": "CALL",
+    "rawText": "I'm at Harlem on 125th street and there's a group of armed men robbing the corner store. Shots fired! Everyone is running!",
+    "delaySeconds": 100
+  },
+  {
+    "id": "rpt-014",
+    "source": "SOCIAL",
+    "rawText": "Man down near Grand Central. Someone doing CPR on him. EMS where are you?? #grandcentral",
+    "delaySeconds": 110
+  },
+  {
+    "id": "rpt-015",
+    "source": "SMS",
+    "rawText": "weird noise coming from under the street in chinatown. sounds like something big moving underground. manhole covers shaking",
+    "delaySeconds": 120
+  },
+  {
+    "id": "rpt-016",
+    "source": "CALL",
+    "rawText": "I want to report a strange smell near Coney Island. Smells like chemicals. No one seems hurt but it's making people cough.",
+    "delaySeconds": 130
+  },
+  {
+    "id": "rpt-017",
+    "source": "SOCIAL",
+    "rawText": "UPDATE on the Wall Street collapse - rescue workers pulling people out. I can see at least 2 injured being loaded into ambulances #prayers",
+    "delaySeconds": 140
+  },
+  {
+    "id": "rpt-018",
+    "source": "CALL",
+    "rawText": "There's a child stuck in a storm drain near Washington Heights! The water is rising because of the rain. Please hurry!",
+    "delaySeconds": 150
+  },
+  {
+    "id": "rpt-019",
+    "source": "SMS",
+    "rawText": "someone just stole my phone at penn station. tall guy red jacket ran towards 34th street exit",
+    "delaySeconds": 160
+  },
+  {
+    "id": "rpt-020",
+    "source": "CALL",
+    "rawText": "The Empire State Building observation deck - a tourist just fainted and they're not waking up. Security is with them but we need paramedics.",
+    "delaySeconds": 170
+  }
+]
